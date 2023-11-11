@@ -1,6 +1,6 @@
 fn main() {
-    // Specify that you're using Lua 5.4 with LuaJIT
-    println!("cargo:rustc-cfg=rlua_lua54");
+    // Specify that you're using Lua 5.1 with LuaJIT
+    println!("cargo:rustc-cfg=rlua_lua51");
     println!("cargo:rustc-cfg=rlua_luajit");
 
     // Specify the path to the static library within the rlua repository
